@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+/* GENERAL */
 header{
     background-color: aqua;
     height: 100px;
@@ -14,9 +14,21 @@ header{
     height: 100%;
     background-color: brown;
 }
+.c-15{
+    width: calc(70% - 40%);
+    height: 100%;
+    background-color: blue;
+    float: left;
+}
+.c-40{
+    width: calc(70% - 30%);
+    height: 100%;
+    background-color: blueviolet;
+    float: left;
+}
 .hero{
     background-color: rgb(231, 138, 16);
-    height: 50vh;
+    height: calc(50vh - 100px);
     width: 100%;
     position: relative;
 }
@@ -39,6 +51,22 @@ header{
     bottom: 20%;
     display: inline-block;
 }
+.sezione{
+    background-color: burlywood;
+    height: 50vh;
+    width: 100%;
+    position: relative;
+}
+.info{
+    background-color: brown;
+    width: 70%;
+    height: 80%;
+    position: absolute;
+    top: 10%;
+    bottom: 10%;
+    left: 15%;
+    right:20%;
+}
 .button-w{
     background-color: azure;
     left: 40%;
@@ -46,4 +74,16 @@ header{
 .button-black{
     background-color: white;
     left: 45%;
+}
+.text{
+    width: 40%;
+    height: 80%;
+    margin: 30px;
+    background-color:azure ;
+}
+.f-left{
+    float: left;
+}
+.f-right{
+    float: right;
 }
