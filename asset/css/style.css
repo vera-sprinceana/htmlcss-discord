@@ -15,5 +15,35 @@ header{
     background-color: brown;
 }
 .hero{
-    
+    background-color: rgb(231, 138, 16);
+    height: 50vh;
+    width: 100%;
+    position: relative;
+}
+
+.contain{
+    background-color: brown;
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    top: 20px;
+    bottom: 10px;
+    left: 10%;
+    right:20%;
+}
+.button{
+    width: 10%;
+    height: 10%;
+    position: relative;
+    top: 70%;
+    bottom: 20%;
+    display: inline-block;
+}
+.button-w{
+    background-color: azure;
+    left: 40%;
+}
+.button-black{
+    background-color: white;
+    left: 45%;
 }
