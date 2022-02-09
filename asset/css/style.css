@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: aqua;
+    height: 100px;
+}
+.intestazione{
+    margin: 0 auto;
+    width: 70%;
+    height: 100%;
+    background-color: brown;
+}
+.hero{
+    
+}
