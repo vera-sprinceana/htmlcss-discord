@@ -9,19 +9,33 @@
     clear: both;
 }
 /* GENERAL */
-.sezione{
-    height: 50vh;
-    width: 100%;
-    position: relative;
+.sezione-1{
+    width: 80%;
+    height: 50%;
+    margin: auto;
+}
+.sezione-2{
+    width: 70%;
+    height: 50%;
+    margin: auto;
+    margin-top: 20%;
+}
+.sezione-3{
+    width: 70%;
+    height: 50%;
+    margin: auto;
+    margin-top: 50%;
 }
 .text{
-    width: 45%;
+    width: 20%;
     height: 100%;
-    margin: 30px;
+    margin-top: 5%;
+    margin-right: 10%;
+    font-weight: bold;
 }
 .sect{
+    margin-top: 10%;
     width: 100%;
-    height: 100vh;
 }
 .size-sez{
     width: 70%;
@@ -38,7 +52,10 @@ h3,
 p{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold; 
-    margin-bottom: 10px; 
+   
+}
+h1{
+    margin-bottom: 20px; 
 }
 /* HEADER */
 header{
@@ -58,10 +75,12 @@ header{
 .c-40{
     width: calc(70% - 30%);
     height: 100%;
-    float: left;  
+    float: left; 
+    
 }
 .logo{
     margin-top: 10px;
+    vertical-align: middle;
 }
 nav ul li{
     display: inline-block;
@@ -74,17 +93,19 @@ header nav ul li a{
     padding: 8px;
     margin-top: 20px;
     font-weight: bold;
+    vertical-align: middle; 
 }
 .menu{
-    vertical-align: middle;
+    
 }
 button{
-    padding: 10px;
-    border-radius: 30%;
+    padding: 5px 10px;
+    border-radius: 40px;
     margin-top: 20px;
     float: right;
     font-weight: bold;
     background-color: white;
+    vertical-align: middle; 
 }
 /* MAIN */
 /* PRIMA PARTE  */
@@ -93,7 +114,7 @@ button{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height:calc(50vh - 90px);
+    height:calc(60vh - 90px);
     width: 100%;
     position: relative;
 }
@@ -107,45 +128,49 @@ button{
     left: 10%;
     right:20%;
 }
+
 .butt{
+    margin-top: 5%;
     position: relative;
     display: inline-block;
     bottom: 10%;
-    border-radius: 40%;
+    border-radius: 40px;
     text-align: center;
     font-weight: bold;
 }
 .button-w{
     background-color: white;
     right: 50%; 
+    padding: 10px 15px;
 }
 .button-black{
     background-color: black;
     right: 20%;
     color: white;
-    padding: 15px;
+    padding: 10px 15px;
 }
-.info{
+/* .info{
     width: 70%;
     height: 80%;
-    position: relative;
+    /* position: relative;
     top: 10%;
     bottom: 10%;
     left: 15%;
-    right:20%;
-}
+    right:20%; */
+} */
 
 .f-left{
     float: left;
-    position: absolute; 
-    background-size: cover;
+    /* margin-left: 40%; */
+    /* position: absolute;  */
+    /* background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center; */
 }
-.img-1{
+/* .img-1{
     background-image: url(../img/item1.svg);
-}
-.img-2{
+} */
+/* .img-2{
     background-image: url(../img/item2.svg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -153,61 +178,135 @@ button{
 }
 .img-3{
     background-image: url(../img/item3.svg);
+} */
+.s-img{
+    width: 20%;
+    height: 60%;
+    margin-top: 5%;
+    /* margin-left: 5%; */
 }
-.f-right{
+.item-3{
+    width: 10%;
+    height: 60%;
+    margin-top: 5%;  
+}
+.text-3{
+    width: 28%;
     float: right;
-
 }
+.text-2{
+    width: 30%;
+    font-weight: bold;
+    float: left;
+}
+.w-diff{
+    width: 60%;
+}
+.item-2{
+    width: 20%;
+    height: 60%;
+    float: right;
+    margin-right: 40%;
+    margin-top: -20%;
+}
+
+.f-right{
+    float: right;  
+}
+
 .c-w{
+    width: 60%;
     color: white;
     text-align: center;
-    margin: 20px;
-    
+    margin: auto ;
+    margin-left: 20%; 
 }
 
 span{
     color: black;
 }
 /* TERZA PARTE */
-
-
 .title{
     height: 15%;
     text-align: center;
 }
-.b-img{
+/* .b-img{
     background-image: url(../img/item4-big.svg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     width: 100%;
     height: 80%;
-    
+    /* DARE COME CLASSE A H3 */
+/* } */
+.item-4{
+    width: 100%;
 }
-
-.img-4{
+.star{
     height: 20%;
     text-align: center;
     background-image: url(../img/stars.svg);
-    background-size: contain;
+    background-repeat:repeat;
+    background-size: 45%;
+    
 }
 .dowload{
-    position: absolute;
-    left: 45%;
+    color: white;
+    margin:5% 40%;
     background-color: rgba(142,161,225,255);
 }
 /* FOOTER */
+.row{
+    margin: auto;
+    width: 65%;
+    margin-top: 10%; 
+}
 .c-30{
-    width: 40%;
+    width: 20%;
     height: 80%;
-    background-color: blueviolet;
     float: left;
     display: inline-block;
+    margin-right: 5%;
+    color:  rgba(111,134,212,255);
+}
+.ita{
+    width: 10%;
+    margin-top: 10%;
+}
+.icon-sm{
+    margin-top: 10%;
+}
+.twitter, .instagram, .facebook, .youtube{
+    width: 20%;
+    padding: 3%;
+}
+footer ul li a{
+    color: rgb(29, 21, 21);
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 5px;
+    
+}
+footer ul li{
+    display: inline-block;
+    list-style-type: none; 
 }
 .c-10{
-    width: 15%;
+    width: calc(45% / 4);
     height: 80%;
-    background-color: blue;
     float: left;
     display: inline-block;
+    padding-right: 18%; 
+    color: rgba(111,134,212,255);
+}
+
+footer>h2{
+    display: inline-block;  
+}
+.bg-black{
+    background-color: black;
+}
+footer{
+    background-color: blueviolet;
 }
